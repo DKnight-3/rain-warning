@@ -21,6 +21,7 @@ parameters = {
 }
 
 response = requests.get(OWM_Endpoint, params=parameters)
+print(response.json())
 forcast_data = response.json()["list"]
 
 will_rain = False
