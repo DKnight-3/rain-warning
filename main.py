@@ -10,8 +10,8 @@ account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 client = Client(account_sid, auth_token)
 
-LAT = "40.712776"
-LONG = "-74.005974"
+LAT = "34.5862"
+LONG = "-94.2397"
 
 parameters = {
     "lat" : LAT,
